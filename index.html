@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Book & Coffee</title>
+    <link rel="stylesheet" href="cores.css">
+</head>
+<body>
+
+    <header id="home">
+        <div class="logo-container">
+            <img src="file:///C:/Users/Win7/Downloads/WhatsApp%20Image%202026-10-23%20at%2018.00.24.jpeg " alt="Logótipo Black Goose Book & Coffee" class="logo">
+        </div>
+        <h1>Black Goose Book & Coffee</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="about">
+            <h2>Sobre o Nosso Café Literário</h2>
+            <p>No <strong>Black Goose Book & Coffee</strong>, combinamos o aroma de cafés especiais com o prazer de uma boa leitura. Venha desfrutar de um ambiente acolhedor, ideal para mergulhar em novas histórias enquanto saboreia as nossas delícias artesanais!</p>
+        </section>
+
+        <section id="menu">
+            <h2>Saindo do Forno &amp; Cardápio</h2>
+
+            <article class="product-item">
+                <h3>Pães Artesanais</h3>
+                <p><img src="images/bread.png" alt="Pães Artesanais"> Massa mãe fermentada naturalmente e assada diariamente, com casca crocante e miolo macio — o acompanhamento perfeito para uma tarde tranquila de leitura, poesia e boa conversa entre capítulos.</p>
+                <p class="more"><a href="#about">Saiba mais...</a></p>
+            </article>
+
+            <article class="product-item">
+                <h3>Muffins &amp; Doces</h3>
+                <p><img src="images/muffin.png" alt="Muffins de Mirtilo"> Muffins frescos de mirtilo e receitas autorais preparadas na hora para adoçar os seus momentos com livros, cadernos de anotações e encontros do clube de leitura.</p>
+                <p class="more"><a href="#about">Saiba mais...</a></p>
+            </article>
+
+            <article class="product-item">
+                <h3>Especialidades Salgadas</h3>
+                <p><img src="images/scallop.png" alt="Especialidades Salgadas"> Quiches, empadas e folhados artesanais preparados diariamente para um lanche saboroso e reconfortante a qualquer hora do dia.</p>
+                <p class="more"><a href="#about">Saiba mais...</a></p>
+            </article>
+        </section>
+    </main>
+
+
+    <!--
+    Respostas - Para pensar (Aula 02):
+
+    1) Parte 3 (position: absolute em #award dentro do footer):
+    O #award aparece no topo da página porque, sem um ancestral posicionado (como position: relative/absolute/fixed em algum elemento pai), um elemento com position: absolute é posicionado em relação ao bloco contendo inicial (a viewport/documento). O espaço no rodapé "some" porque elementos com position: absolute são retirados do fluxo normal do layout, logo não reservam espaço onde foram declarados no HTML.
+
+    2) Parte 4 (position: fixed em #award com top: 30px; left: 50px;):
+    Na Parte 3 (absolute), o elemento acompanha o documento quando a página rola. Na Parte 4 (fixed), o elemento é fixado em relação à janela de visualização (viewport) do navegador — ou seja, ele fica ancorado à tela e não se move quando você rola a página, podendo sobrepor outros conteúdos em telas menores.
+    -->
+
+</body>
+</html>

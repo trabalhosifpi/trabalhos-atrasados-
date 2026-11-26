@@ -1,0 +1,164 @@
+:root {
+    --neutral-grey: #C9CAD9;
+    --light-blue-1: #D1D2F9;
+    --light-blue-2: #A3BCF9;
+    --vibrant-blue: #7796CB;
+    --dark-grey-blue: #576490;
+    --white: #ffffff;
+    --text-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--neutral-grey);
+}
+
+header {
+    background-color: var(--dark-grey-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+}
+
+.logo-container {
+    margin-bottom: 1rem;
+}
+
+.logo {
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--light-blue-2);
+    background-color: var(--white);
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--vibrant-blue);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--light-blue-1);
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 5px solid var(--vibrant-blue);
+}
+
+main {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: var(--vibrant-blue);
+    border-bottom: 3px solid var(--light-blue-2);
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.product-item {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.product-item h3 {
+    color: var(--dark-grey-blue);
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+}
+
+/* main "products" styles */
+main img {
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+img[src*="muffin"] {
+    margin-left: 50px;
+    shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 115px, 226px 148px, 212px 175px, 180px 185px, 35px 185px, 10px 160px, 0px 110px);
+}
+
+img[src*="bread"] {
+    shape-outside: ellipse(130px 105px at 50% 50%);
+}
+
+p.more {
+    clear: left;
+    margin-top: 0.75rem;
+}
+
+p.more a {
+    color: var(--dark-grey-blue);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p.more a:hover {
+    text-decoration: underline;
+}
+
+/* misc styles */
+#award {
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    z-index: 100;
+}
+
+#award img {
+    width: 72px;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: var(--dark-grey-blue);
+    color: var(--neutral-grey);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    font-size: 1rem;
+}
