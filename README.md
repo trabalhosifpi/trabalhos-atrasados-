@@ -1,4 +1,4 @@
-# ☕ Black Goose Book & Coffee
+#  Black Goose Book & Coffee
 
 <p align="center">
   <img src="images/logo.png" alt="Black Goose Book & Coffee" width="180">
@@ -12,7 +12,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 O **Black Goose Book & Coffee** é um projeto de desenvolvimento web que apresenta a proposta de um café literário, um espaço que combina cafés especiais, produtos artesanais e o prazer da leitura.
 
@@ -20,7 +20,7 @@ A página foi desenvolvida com HTML5 e CSS3, buscando criar uma experiência vis
 
 O projeto passou por diferentes versões de estrutura e estilização, permitindo explorar recursos de HTML e CSS e aprimorar a apresentação do site.
 
-## 💻 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -30,7 +30,7 @@ O projeto passou por diferentes versões de estrutura e estilização, permitind
 - **HTML5:** estruturação do conteúdo, criação de seções, navegação, imagens e textos.
 - **CSS3:** estilização da página, organização dos elementos, cores, espaçamentos e efeitos visuais.
 
-## ✨ Funcionalidades e Recursos
+## Funcionalidades e Recursos
 
 - Cabeçalho personalizado com logotipo e nome do estabelecimento.
 - Menu de navegação com links internos.
@@ -42,7 +42,7 @@ O projeto passou por diferentes versões de estrutura e estilização, permitind
 - Imagens acompanhadas de descrições alternativas (`alt`).
 - Layout organizado com cores e elementos visuais personalizados.
 
-## 🎨 Identidade Visual
+##  Identidade Visual
 
 A identidade visual utiliza uma paleta de cores baseada em tons de azul, cinza e branco, proporcionando uma aparência moderna e equilibrada.
 
@@ -57,7 +57,7 @@ A identidade visual utiliza uma paleta de cores baseada em tons de azul, cinza e
 
 As cores foram organizadas utilizando variáveis CSS no seletor `:root`, facilitando futuras alterações na identidade visual.
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 Black-Goose-Book-Coffee/
@@ -77,7 +77,7 @@ Black-Goose-Book-Coffee/
 └── README.md
 ```
 
-## 📚 O Que Foi Aprendido
+##  O Que Foi Aprendido
 
 Durante o desenvolvimento do projeto, foram explorados conceitos importantes de programação web:
 
@@ -93,7 +93,7 @@ Durante o desenvolvimento do projeto, foram explorados conceitos importantes de 
 - Trabalhar com propriedades de posicionamento, como `absolute` e `fixed`.
 - Exploração de propriedades como `float`, `clear` e `shape-outside`.
 
-## 🚀 Objetivo do Projeto
+##  Objetivo do Projeto
 
 O principal objetivo foi colocar em prática os conhecimentos adquiridos nas aulas de Programação Web, desenvolvendo uma página que reúne estruturação HTML, estilização CSS e organização visual de conteúdo.
 
@@ -104,5 +104,5 @@ O principal objetivo foi colocar em prática os conhecimentos adquiridos nas aul
 </p>
 
 <p align="center">
-  ☕ Black Goose Book & Coffee — Onde boas histórias encontram bons cafés.
+   Black Goose Book & Coffee — Onde boas histórias encontram bons cafés.
 </p>
